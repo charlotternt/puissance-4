@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset = "utf-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Puissance 4</title>
+    
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+   <h1>Puissance 4</h1>
+    <div class="config"><a href="#">COMMENCER</a></div>
+    <div class="container">
+   <div id="jeu">
+    <div id="colonnes">
+   <h2>Choisissez la taille du plateau :</h2>
+   <label for="col">Colonnes :</label>
+   <input type="number" min="7" max="10" value="7" id="col">
+   <label for="lig">Lignes :</label>
+   <input type="number" min="6" max="9" value="6" id="lig">
+   </div>
+
+   
+   <button id="start">Play</button>
+   </div> 
+   </div>
+
+   <div id="grid"></div>
+    <div id="tour">
+     <p id="bulleTour"></p>
+    </div>
+
+
+   <div class="fini">
+     <div class="content">
+    <button id="restart">Recommencer la partie</button>
+     </div>
+   </div>
+
+<script src="script.js" ></script>
+</body>
+
+</html>
